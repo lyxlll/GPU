@@ -1,0 +1,136 @@
+﻿  Compiling CUDA source file mosaic.cu...
+  
+  G:\GPU\assignment2\assign2\assign2>"D:\cudadevelopment\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "G:\vs\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -ID:\cudadevelopment\include -ID:\cudadevelopment\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\mosaic.cu.obj "G:\GPU\assignment2\assign2\assign2\mosaic.cu" 
+d:\cudadevelopment\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(824): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(1759): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(2621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(3460): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(4403): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(5301): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(6212): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(7093): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(7892): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt/device_functions.h(773): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt/device_functions.h(1628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(98): warning : variable "cell_row_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(99): warning : variable "cell_col_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(107): warning : variable "aveRed" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(107): warning : variable "aveGreen" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(107): warning : variable "aveBlue" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(109): warning : variable "i" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(190): warning : variable "cell_row_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(191): warning : variable "cell_col_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(199): warning : variable "aveRed" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(199): warning : variable "aveGreen" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(199): warning : variable "aveBlue" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(201): warning : variable "i" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(299): warning : variable "allsumr" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(401): warning : variable "cell_row_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(402): warning : variable "cell_col_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(410): warning : variable "aveRed" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(410): warning : variable "aveGreen" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(410): warning : variable "aveBlue" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(412): warning : variable "i" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(502): warning : variable "cell_row_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(503): warning : variable "cell_col_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(511): warning : variable "aveRed" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(511): warning : variable "aveGreen" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(511): warning : variable "aveBlue" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(513): warning : variable "i" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(623): warning : variable "row_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(624): warning : variable "col_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(625): warning : variable "cell_row_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(626): warning : variable "cell_col_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(630): warning : variable "allsumr" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(630): warning : variable "allsumg" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(630): warning : variable "allsumb" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(631): warning : variable "y_in_col" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(631): warning : variable "x_in_row" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(632): warning : variable "dy_in_col" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(632): warning : variable "dx_in_row" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(645): warning : variable "aveRed" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(645): warning : variable "aveGreen" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(645): warning : variable "aveBlue" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(645): warning : variable "allaver" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(645): warning : variable "allaveg" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(645): warning : variable "allaveb" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(647): warning : variable "i" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(788): warning : variable "row_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(789): warning : variable "col_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(790): warning : variable "cell_row_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(791): warning : variable "cell_col_limit" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(795): warning : variable "allsumr" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(795): warning : variable "allsumg" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(795): warning : variable "allsumb" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(796): warning : variable "y_in_col" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(796): warning : variable "x_in_row" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(797): warning : variable "dy_in_col" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(797): warning : variable "dx_in_row" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(810): warning : variable "aveRed" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(810): warning : variable "aveGreen" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(810): warning : variable "aveBlue" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(810): warning : variable "allaver" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(810): warning : variable "allaveg" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(810): warning : variable "allaveb" was declared but never referenced
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(812): warning : variable "i" was declared but never referenced
+d:\cudadevelopment\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(824): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(1759): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(2621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(3460): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(4403): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(5301): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(6212): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(7093): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(7892): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt/device_functions.h(773): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt/device_functions.h(1628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  mosaic.cu
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(109): warning C4101: “i”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(201): warning C4101: “i”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(486): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(612): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(765): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(778): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(726): warning C4996: 'cudaThreadSynchronize': 被声明为已否决
+  d:\cudadevelopment\include\cuda_runtime_api.h(955): note: 参见“cudaThreadSynchronize”的声明
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(891): warning C4996: 'cudaThreadSynchronize': 被声明为已否决
+  d:\cudadevelopment\include\cuda_runtime_api.h(955): note: 参见“cudaThreadSynchronize”的声明
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(412): warning C4101: “i”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(513): warning C4101: “i”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(631): warning C4101: “y_in_col”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(632): warning C4101: “dx_in_row”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(631): warning C4101: “x_in_row”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(647): warning C4101: “i”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(632): warning C4101: “dy_in_col”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(796): warning C4101: “y_in_col”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(797): warning C4101: “dx_in_row”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(796): warning C4101: “x_in_row”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(812): warning C4101: “i”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(797): warning C4101: “dy_in_col”: 未引用的局部变量
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(1004): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“unsigned char *”
+  G:/GPU/assignment2/assign2/assign2/mosaic.cu(1004): note: 请考虑在格式字符串中使用“%hhd”
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(1004): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“unsigned char *”
+  G:/GPU/assignment2/assign2/assign2/mosaic.cu(1004): note: 请考虑在格式字符串中使用“%hhd”
+G:/GPU/assignment2/assign2/assign2/mosaic.cu(1004): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 3 拥有了类型“unsigned char *”
+  G:/GPU/assignment2/assign2/assign2/mosaic.cu(1004): note: 请考虑在格式字符串中使用“%hhd”
+d:\cudadevelopment\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(824): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(1759): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(2621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(3461): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(4403): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(5301): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(6212): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(7093): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cudadevelopment\include\crt\math_functions.h(7892): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  assign2.vcxproj -> G:\GPU\assignment2\assign2\x64\Debug\assign2.exe

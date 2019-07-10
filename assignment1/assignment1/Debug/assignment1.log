@@ -1,0 +1,17 @@
+﻿  mosaic.c
+g:\gpu\assignment1\assignment1\mosaic.c(231): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+g:\gpu\assignment1\assignment1\mosaic.c(356): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+g:\gpu\assignment1\assignment1\mosaic.c(157): warning C4101: “i”: 未引用的局部变量
+g:\gpu\assignment1\assignment1\mosaic.c(253): warning C4101: “x_in_cell”: 未引用的局部变量
+g:\gpu\assignment1\assignment1\mosaic.c(253): warning C4101: “x_in_row”: 未引用的局部变量
+g:\gpu\assignment1\assignment1\mosaic.c(258): warning C4101: “i”: 未引用的局部变量
+g:\gpu\assignment1\assignment1\mosaic.c(253): warning C4101: “y_in_cell”: 未引用的局部变量
+g:\gpu\assignment1\assignment1\mosaic.c(699): warning C4033: “readFile”必须返回值
+g:\gpu\assignment1\assignment1\mosaic.c(725): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“unsigned char *”
+  g:\gpu\assignment1\assignment1\mosaic.c(725): note: 请考虑在格式字符串中使用“%hhd”
+g:\gpu\assignment1\assignment1\mosaic.c(725): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“unsigned char *”
+  g:\gpu\assignment1\assignment1\mosaic.c(725): note: 请考虑在格式字符串中使用“%hhd”
+g:\gpu\assignment1\assignment1\mosaic.c(725): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 3 拥有了类型“unsigned char *”
+  g:\gpu\assignment1\assignment1\mosaic.c(725): note: 请考虑在格式字符串中使用“%hhd”
+g:\gpu\assignment1\assignment1\mosaic.c(750): warning C4715: “readFile”: 不是所有的控件路径都返回值
+  assignment1.vcxproj -> G:\GPU\assignment1\Debug\assignment1.exe
